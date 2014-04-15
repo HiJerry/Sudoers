@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C45AE0B018FD6A8500C021AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45AE0AF18FD6A8500C021AB /* Foundation.framework */; };
+		C45AE0B218FD6A8500C021AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45AE0B118FD6A8500C021AB /* CoreGraphics.framework */; };
+		C45AE0B418FD6A8500C021AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45AE0B318FD6A8500C021AB /* UIKit.framework */; };
+		C45AE0BA18FD6A8500C021AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C45AE0B818FD6A8500C021AB /* InfoPlist.strings */; };
+		C45AE0BC18FD6A8500C021AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C45AE0BB18FD6A8500C021AB /* main.m */; };
+		C45AE0C018FD6A8500C021AB /* SudoersAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C45AE0BF18FD6A8500C021AB /* SudoersAppDelegate.m */; };
+		C45AE0C318FD6A8500C021AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45AE0C118FD6A8500C021AB /* Main.storyboard */; };
+		C45AE0C618FD6A8500C021AB /* SudoersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C45AE0C518FD6A8500C021AB /* SudoersViewController.m */; };
+		C45AE0C818FD6A8500C021AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45AE0C718FD6A8500C021AB /* Images.xcassets */; };
+		C45AE0CF18FD6A8500C021AB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45AE0CE18FD6A8500C021AB /* XCTest.framework */; };
+		C45AE0D018FD6A8500C021AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45AE0AF18FD6A8500C021AB /* Foundation.framework */; };
+		C45AE0D118FD6A8500C021AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45AE0B318FD6A8500C021AB /* UIKit.framework */; };
+		C45AE0D918FD6A8500C021AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C45AE0D718FD6A8500C021AB /* InfoPlist.strings */; };
+		C45AE0DB18FD6A8500C021AB /* SudoersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C45AE0DA18FD6A8500C021AB /* SudoersTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C45AE0D218FD6A8500C021AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C45AE0A418FD6A8500C021AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C45AE0AB18FD6A8500C021AB;
+			remoteInfo = Sudoers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C45AE0AC18FD6A8500C021AB /* Sudoers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sudoers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45AE0AF18FD6A8500C021AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C45AE0B118FD6A8500C021AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C45AE0B318FD6A8500C021AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C45AE0B718FD6A8500C021AB /* Sudoers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sudoers-Info.plist"; sourceTree = "<group>"; };
+		C45AE0B918FD6A8500C021AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C45AE0BB18FD6A8500C021AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C45AE0BD18FD6A8500C021AB /* Sudoers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sudoers-Prefix.pch"; sourceTree = "<group>"; };
+		C45AE0BE18FD6A8500C021AB /* SudoersAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SudoersAppDelegate.h; sourceTree = "<group>"; };
+		C45AE0BF18FD6A8500C021AB /* SudoersAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SudoersAppDelegate.m; sourceTree = "<group>"; };
+		C45AE0C218FD6A8500C021AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C45AE0C418FD6A8500C021AB /* SudoersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SudoersViewController.h; sourceTree = "<group>"; };
+		C45AE0C518FD6A8500C021AB /* SudoersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SudoersViewController.m; sourceTree = "<group>"; };
+		C45AE0C718FD6A8500C021AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C45AE0CD18FD6A8500C021AB /* SudoersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SudoersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45AE0CE18FD6A8500C021AB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C45AE0D618FD6A8500C021AB /* SudoersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SudoersTests-Info.plist"; sourceTree = "<group>"; };
+		C45AE0D818FD6A8500C021AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C45AE0DA18FD6A8500C021AB /* SudoersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SudoersTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C45AE0A918FD6A8500C021AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45AE0B218FD6A8500C021AB /* CoreGraphics.framework in Frameworks */,
+				C45AE0B418FD6A8500C021AB /* UIKit.framework in Frameworks */,
+				C45AE0B018FD6A8500C021AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45AE0CA18FD6A8500C021AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45AE0CF18FD6A8500C021AB /* XCTest.framework in Frameworks */,
+				C45AE0D118FD6A8500C021AB /* UIKit.framework in Frameworks */,
+				C45AE0D018FD6A8500C021AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C45AE0A318FD6A8500C021AB = {
+			isa = PBXGroup;
+			children = (
+				C45AE0B518FD6A8500C021AB /* Sudoers */,
+				C45AE0D418FD6A8500C021AB /* SudoersTests */,
+				C45AE0AE18FD6A8500C021AB /* Frameworks */,
+				C45AE0AD18FD6A8500C021AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C45AE0AD18FD6A8500C021AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C45AE0AC18FD6A8500C021AB /* Sudoers.app */,
+				C45AE0CD18FD6A8500C021AB /* SudoersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C45AE0AE18FD6A8500C021AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C45AE0AF18FD6A8500C021AB /* Foundation.framework */,
+				C45AE0B118FD6A8500C021AB /* CoreGraphics.framework */,
+				C45AE0B318FD6A8500C021AB /* UIKit.framework */,
+				C45AE0CE18FD6A8500C021AB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C45AE0B518FD6A8500C021AB /* Sudoers */ = {
+			isa = PBXGroup;
+			children = (
+				C45AE0BE18FD6A8500C021AB /* SudoersAppDelegate.h */,
+				C45AE0BF18FD6A8500C021AB /* SudoersAppDelegate.m */,
+				C45AE0C118FD6A8500C021AB /* Main.storyboard */,
+				C45AE0C418FD6A8500C021AB /* SudoersViewController.h */,
+				C45AE0C518FD6A8500C021AB /* SudoersViewController.m */,
+				C45AE0C718FD6A8500C021AB /* Images.xcassets */,
+				C45AE0B618FD6A8500C021AB /* Supporting Files */,
+			);
+			path = Sudoers;
+			sourceTree = "<group>";
+		};
+		C45AE0B618FD6A8500C021AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C45AE0B718FD6A8500C021AB /* Sudoers-Info.plist */,
+				C45AE0B818FD6A8500C021AB /* InfoPlist.strings */,
+				C45AE0BB18FD6A8500C021AB /* main.m */,
+				C45AE0BD18FD6A8500C021AB /* Sudoers-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C45AE0D418FD6A8500C021AB /* SudoersTests */ = {
+			isa = PBXGroup;
+			children = (
+				C45AE0DA18FD6A8500C021AB /* SudoersTests.m */,
+				C45AE0D518FD6A8500C021AB /* Supporting Files */,
+			);
+			path = SudoersTests;
+			sourceTree = "<group>";
+		};
+		C45AE0D518FD6A8500C021AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C45AE0D618FD6A8500C021AB /* SudoersTests-Info.plist */,
+				C45AE0D718FD6A8500C021AB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C45AE0AB18FD6A8500C021AB /* Sudoers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45AE0DE18FD6A8500C021AB /* Build configuration list for PBXNativeTarget "Sudoers" */;
+			buildPhases = (
+				C45AE0A818FD6A8500C021AB /* Sources */,
+				C45AE0A918FD6A8500C021AB /* Frameworks */,
+				C45AE0AA18FD6A8500C021AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sudoers;
+			productName = Sudoers;
+			productReference = C45AE0AC18FD6A8500C021AB /* Sudoers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C45AE0CC18FD6A8500C021AB /* SudoersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45AE0E118FD6A8500C021AB /* Build configuration list for PBXNativeTarget "SudoersTests" */;
+			buildPhases = (
+				C45AE0C918FD6A8500C021AB /* Sources */,
+				C45AE0CA18FD6A8500C021AB /* Frameworks */,
+				C45AE0CB18FD6A8500C021AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C45AE0D318FD6A8500C021AB /* PBXTargetDependency */,
+			);
+			name = SudoersTests;
+			productName = SudoersTests;
+			productReference = C45AE0CD18FD6A8500C021AB /* SudoersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C45AE0A418FD6A8500C021AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Sudoers;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jerry;
+				TargetAttributes = {
+					C45AE0CC18FD6A8500C021AB = {
+						TestTargetID = C45AE0AB18FD6A8500C021AB;
+					};
+				};
+			};
+			buildConfigurationList = C45AE0A718FD6A8500C021AB /* Build configuration list for PBXProject "Sudoers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C45AE0A318FD6A8500C021AB;
+			productRefGroup = C45AE0AD18FD6A8500C021AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C45AE0AB18FD6A8500C021AB /* Sudoers */,
+				C45AE0CC18FD6A8500C021AB /* SudoersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C45AE0AA18FD6A8500C021AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45AE0C818FD6A8500C021AB /* Images.xcassets in Resources */,
+				C45AE0BA18FD6A8500C021AB /* InfoPlist.strings in Resources */,
+				C45AE0C318FD6A8500C021AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45AE0CB18FD6A8500C021AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45AE0D918FD6A8500C021AB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C45AE0A818FD6A8500C021AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45AE0C618FD6A8500C021AB /* SudoersViewController.m in Sources */,
+				C45AE0C018FD6A8500C021AB /* SudoersAppDelegate.m in Sources */,
+				C45AE0BC18FD6A8500C021AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45AE0C918FD6A8500C021AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45AE0DB18FD6A8500C021AB /* SudoersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C45AE0D318FD6A8500C021AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C45AE0AB18FD6A8500C021AB /* Sudoers */;
+			targetProxy = C45AE0D218FD6A8500C021AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C45AE0B818FD6A8500C021AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C45AE0B918FD6A8500C021AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C45AE0C118FD6A8500C021AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C45AE0C218FD6A8500C021AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C45AE0D718FD6A8500C021AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C45AE0D818FD6A8500C021AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C45AE0DC18FD6A8500C021AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C45AE0DD18FD6A8500C021AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C45AE0DF18FD6A8500C021AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sudoers/Sudoers-Prefix.pch";
+				INFOPLIST_FILE = "Sudoers/Sudoers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C45AE0E018FD6A8500C021AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sudoers/Sudoers-Prefix.pch";
+				INFOPLIST_FILE = "Sudoers/Sudoers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C45AE0E218FD6A8500C021AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sudoers.app/Sudoers";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sudoers/Sudoers-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SudoersTests/SudoersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C45AE0E318FD6A8500C021AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sudoers.app/Sudoers";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sudoers/Sudoers-Prefix.pch";
+				INFOPLIST_FILE = "SudoersTests/SudoersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C45AE0A718FD6A8500C021AB /* Build configuration list for PBXProject "Sudoers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45AE0DC18FD6A8500C021AB /* Debug */,
+				C45AE0DD18FD6A8500C021AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C45AE0DE18FD6A8500C021AB /* Build configuration list for PBXNativeTarget "Sudoers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45AE0DF18FD6A8500C021AB /* Debug */,
+				C45AE0E018FD6A8500C021AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C45AE0E118FD6A8500C021AB /* Build configuration list for PBXNativeTarget "SudoersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45AE0E218FD6A8500C021AB /* Debug */,
+				C45AE0E318FD6A8500C021AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C45AE0A418FD6A8500C021AB /* Project object */;
+}
